@@ -1,0 +1,4 @@
+#!/bin/bash
+$CFILE = "test.c"
+$OUTFILE = "test.s"
+gcc -S $CFILE -o $OUTFILE
